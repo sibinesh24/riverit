@@ -1,0 +1,1613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RiverIT Pte Ltd — Business Continuity, Backup & IT Security in Singapore</title>
+  <meta name="description" content="RiverIT designs, deploys and supports backup, recovery, networks and security for Singapore businesses — so a failed server or ransomware attack never becomes a lost day of work.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Ambient hardware-accelerated glowing orbs -->
+  <div class="ambient-glow ambient-glow-1"></div>
+  <div class="ambient-glow ambient-glow-2"></div>
+
+  <!-- SITE HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="brand-logo" aria-label="RiverIT Home">
+        <div class="logo-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+          </svg>
+        </div>
+        <span>RiverIT<span class="dot">.</span></span>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="main-nav" aria-label="Main Navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        
+        <!-- Services Dropdown -->
+        <div class="nav-item-dropdown">
+          <a href="#services" class="nav-link dropdown-trigger">
+            Services
+            <svg class="dropdown-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#continuity" class="dropdown-link">
+              <span class="dropdown-title">Business Continuity</span>
+              <span class="dropdown-desc">RiverStorage & stand-in recovery</span>
+            </a>
+            <a href="#m365" class="dropdown-link">
+              <span class="dropdown-title">Microsoft 365 & Intune Backup</span>
+              <span class="dropdown-desc">Cloud-to-cloud data protection</span>
+            </a>
+            <a href="#archival" class="dropdown-link">
+              <span class="dropdown-title">Archival Solutions</span>
+              <span class="dropdown-desc">Rugged RDX removable storage</span>
+            </a>
+            <a href="#network" class="dropdown-link">
+              <span class="dropdown-title">Network & Firewall</span>
+              <span class="dropdown-desc">Fortinet, WatchGuard, Cisco</span>
+            </a>
+            <a href="#security" class="dropdown-link">
+              <span class="dropdown-title">Cyber Security</span>
+              <span class="dropdown-desc">Audits & 24/7 WhatsUp Gold</span>
+            </a>
+            <a href="#support" class="dropdown-link">
+              <span class="dropdown-title">IT Support</span>
+              <span class="dropdown-desc">Singapore-based helpdesk & on-site</span>
+            </a>
+          </div>
+        </div>
+
+        <a href="#training" class="nav-link">Training</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Header CTA & Mobile Toggle -->
+      <div class="header-actions">
+        <a href="#contact" class="btn btn-primary" data-modal-target="#modal-talk">Talk to us</a>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MOBILE DRAWER -->
+  <div class="mobile-drawer-overlay" id="mobile-drawer-overlay"></div>
+  <div class="mobile-drawer" id="mobile-drawer">
+    <a href="#home" class="nav-link">Home</a>
+    <div class="mobile-drawer-group-title">Services</div>
+    <a href="#continuity" class="mobile-sub-link">Business Continuity</a>
+    <a href="#m365" class="mobile-sub-link">Microsoft 365 & Intune Backup</a>
+    <a href="#archival" class="mobile-sub-link">Archival Solutions</a>
+    <a href="#network" class="mobile-sub-link">Network & Firewall</a>
+    <a href="#security" class="mobile-sub-link">Cyber Security</a>
+    <a href="#support" class="mobile-sub-link">IT Support</a>
+    <div class="mobile-drawer-group-title">Company</div>
+    <a href="#training" class="nav-link">Training</a>
+    <a href="#about" class="nav-link">About</a>
+    <a href="#contact" class="nav-link">Contact</a>
+    <div style="margin-top: 20px;">
+      <a href="#contact" class="btn btn-primary" style="width: 100%;" data-modal-target="#modal-talk">Talk to us</a>
+    </div>
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- VIEW 1: HOME PAGE                                                         -->
+  <!-- ========================================================================= -->
+  <main class="page-view active" id="view-home">
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content reveal-item">
+          <div class="badge-label">
+            <span class="badge-dot"></span>
+            Business Continuity · Singapore
+          </div>
+          <h1 class="hero-headline">When systems fail, your business keeps flowing.</h1>
+          <p class="hero-intro">
+            RiverIT designs, deploys and supports backup, recovery, networks and security for Singapore businesses — with hands-on IT support, so a failed server, ransomware attack or network outage never becomes a lost day of work.
+          </p>
+          <div class="hero-cta-group">
+            <button class="btn btn-primary btn-lg" data-modal-target="#modal-assessment">Get a continuity assessment</button>
+            <a href="#continuity" class="btn btn-outline btn-lg">Explore services</a>
+          </div>
+          <div class="trust-line">
+            <svg class="trust-line-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+            <span>bizSAFE Level 3 · Singapore-based engineers · Arcserve, Acronis & Fortinet partner</span>
+          </div>
+        </div>
+
+        <!-- Interactive Live Disaster Recovery Simulator Widget -->
+        <div class="hero-visual reveal-item delay-2">
+          <div class="continuity-terminal" id="hero-simulator">
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <span class="terminal-dot red"></span>
+                <span class="terminal-dot yellow"></span>
+                <span class="terminal-dot green"></span>
+              </div>
+              <div class="terminal-title">RIVERSTORAGE LIVE SIMULATOR</div>
+              <div class="terminal-status-live">
+                <span class="status-ping"></span>
+                ONLINE
+              </div>
+            </div>
+
+            <!-- Server Node Visualizer -->
+            <div class="terminal-node-grid">
+              <div class="server-node server-node-prod active-prod">
+                <div class="node-icon-box">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                    <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                    <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                    <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                  </svg>
+                </div>
+                <div class="node-name">Production</div>
+                <div class="node-state node-state-prod">STATUS: ONLINE (PRIMARY)</div>
+              </div>
+
+              <div class="node-connector">
+                <div class="data-flow-line">
+                  <div class="data-pulse"></div>
+                </div>
+              </div>
+
+              <div class="server-node server-node-standin">
+                <div class="node-icon-box">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                    <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                    <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                  </svg>
+                </div>
+                <div class="node-name">RiverStorage</div>
+                <div class="node-state node-state-standin">STATUS: READY (STANDBY)</div>
+              </div>
+            </div>
+
+            <div class="terminal-stats-row">
+              <div class="stat-box">
+                <div class="stat-label">Downtime</div>
+                <div class="stat-value sim-downtime">00:00</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-label">RPO Target</div>
+                <div class="stat-value">&lt; 15 min</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-label">Stand-in Speed</div>
+                <div class="stat-value">&lt; 4 min</div>
+              </div>
+            </div>
+
+            <div style="font-size: 0.8rem; font-family: var(--font-mono); margin-bottom: 14px; text-align: center;" class="sim-status">
+              Active Replication (Continuous RPO: 15m)
+            </div>
+
+            <div class="terminal-actions">
+              <button class="btn-sim btn-sim-fail btn-trigger-fail">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+                Simulate Server Crash
+              </button>
+              <button class="btn-sim btn-sim-restore btn-trigger-restore">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="1 4 1 10 7 10"></polyline><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path></svg>
+                Restore Original Server
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Overview Section -->
+    <section id="services">
+      <div class="container">
+        <div class="section-header text-center reveal-item">
+          <div class="badge-label">Specialist Capabilities</div>
+          <h2 class="section-title">Everything your IT runs on. One promise: business, uninterrupted.</h2>
+        </div>
+
+        <div class="cards-grid-3">
+          <!-- CARD 1: Business Continuity -->
+          <div class="feature-card reveal-item delay-1">
+            <div class="card-icon-wrap">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+              </svg>
+            </div>
+            <h3 class="card-title">Business Continuity</h3>
+            <p class="card-body">Image-based backup and stand-in recovery with RiverStorage, Arcserve ShadowProtect and Acronis — downtime measured in minutes, not days.</p>
+            <a href="#continuity" class="card-link">Learn more →</a>
+          </div>
+
+          <!-- CARD 2: Microsoft 365 & Intune Backup -->
+          <div class="feature-card reveal-item delay-2">
+            <div class="card-icon-wrap">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+              </svg>
+            </div>
+            <h3 class="card-title">Microsoft 365 & Intune Backup</h3>
+            <p class="card-body">Cloud-to-cloud backup for Exchange, OneDrive, SharePoint, Teams and Intune configurations, powered by Acronis — because Microsoft doesn't back your data up for you.</p>
+            <a href="#m365" class="card-link">Learn more →</a>
+          </div>
+
+          <!-- CARD 3: Archival Solutions -->
+          <div class="feature-card reveal-item delay-3">
+            <div class="card-icon-wrap">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+              </svg>
+            </div>
+            <h3 class="card-title">Archival Solutions</h3>
+            <p class="card-body">Rugged, removable RDX QuikStor disk storage for long-term retention, offline copies and disaster recovery.</p>
+            <a href="#archival" class="card-link">Learn more →</a>
+          </div>
+
+          <!-- CARD 4: Network & Firewall -->
+          <div class="feature-card reveal-item delay-4">
+            <div class="card-icon-wrap">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                <line x1="6" y1="18" x2="6.01" y2="18"></line>
+              </svg>
+            </div>
+            <h3 class="card-title">Network & Firewall</h3>
+            <p class="card-body">Design, deployment and management of business networks — Fortinet and WatchGuard firewalls, Cisco switching, secure remote access and Wi-Fi.</p>
+            <a href="#network" class="card-link">Learn more →</a>
+          </div>
+
+          <!-- CARD 5: Cyber Security -->
+          <div class="feature-card reveal-item delay-5">
+            <div class="card-icon-wrap">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+            </div>
+            <h3 class="card-title">Cyber Security</h3>
+            <p class="card-body">Web security audits with Acunetix, network monitoring with Progress WhatsUp Gold, and layered protection — find and fix vulnerabilities before attackers do.</p>
+            <a href="#security" class="card-link">Learn more →</a>
+          </div>
+
+          <!-- CARD 6: IT Support -->
+          <div class="feature-card reveal-item delay-6">
+            <div class="card-icon-wrap">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+            </div>
+            <h3 class="card-title">IT Support</h3>
+            <p class="card-body">Responsive helpdesk and on-site support for day-to-day IT — troubleshooting, maintenance, hardware and user support from Singapore-based engineers.</p>
+            <a href="#support" class="card-link">Learn more →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How Continuity Works Section -->
+    <section>
+      <div class="container">
+        <div class="section-header text-center reveal-item">
+          <div class="badge-label">The Resilience Lifecycle</div>
+          <h2 class="section-title">Protect. Detect. Recover.</h2>
+          <p class="section-desc">Continuity isn't a product you buy once — it's a loop we design, test and keep running with you.</p>
+        </div>
+
+        <div class="steps-grid">
+          <div class="step-card reveal-item delay-1">
+            <span class="step-number">STEP 01</span>
+            <h3 class="step-title">01 · Protect — Backups that actually restore</h3>
+            <p class="step-desc">Image-based backups of your servers and data, verified continuously — on-premise, in the cloud, or both.</p>
+          </div>
+          <div class="step-card reveal-item delay-2">
+            <span class="step-number">STEP 02</span>
+            <h3 class="step-title">02 · Detect — Problems found before users report them</h3>
+            <p class="step-desc">Network and system monitoring flags failures, ransomware activity and capacity issues as they develop.</p>
+          </div>
+          <div class="step-card reveal-item delay-3">
+            <span class="step-number">STEP 03</span>
+            <h3 class="step-title">03 · Recover — A stand-in while we fix the original</h3>
+            <p class="step-desc">When a production server fails, RiverStorage takes its place — your team keeps working while we restore.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why RiverIT Section -->
+    <section style="background: rgba(14, 25, 54, 0.4);">
+      <div class="container">
+        <div class="section-header text-center reveal-item">
+          <div class="badge-label">The RiverIT Difference</div>
+          <h2 class="section-title">Service and care, not just software licences.</h2>
+        </div>
+
+        <div class="why-grid">
+          <div class="why-item reveal-item delay-1">
+            <h3 class="why-title">Engineers in Singapore</h3>
+            <p class="why-desc">Support from people who can be on-site — not a ticket queue in another timezone.</p>
+          </div>
+          <div class="why-item reveal-item delay-2">
+            <h3 class="why-title">Recovery you've rehearsed</h3>
+            <p class="why-desc">We don't just install backups; we test the restore, so the first recovery you run isn't during a crisis.</p>
+          </div>
+          <div class="why-item reveal-item delay-3">
+            <h3 class="why-title">Vendor-certified, bizSAFE 3</h3>
+            <p class="why-desc">Accredited partnerships with the vendors we deploy, and bizSAFE Level 3 workplace-safety certification.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Partners List Marquee -->
+    <section class="partners-section">
+      <div class="container">
+        <div class="partners-label">Enterprise Technology Partners</div>
+        <div class="partners-tags reveal-item">
+          <span class="partner-pill">Arcserve ShadowProtect</span>
+          <span class="partner-pill">Acronis</span>
+          <span class="partner-pill">Overland-Tandberg RDX</span>
+          <span class="partner-pill">Microsoft 365</span>
+          <span class="partner-pill">Fortinet</span>
+          <span class="partner-pill">WatchGuard</span>
+          <span class="partner-pill">Acunetix</span>
+          <span class="partner-pill">Progress WhatsUp Gold</span>
+          <span class="partner-pill">Cisco</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Training Banner -->
+    <section>
+      <div class="container">
+        <div class="training-banner reveal-item">
+          <div class="training-banner-content">
+            <div class="trust-badge-pill" style="margin-bottom: 12px;">Free Sessions For Teams</div>
+            <h3>IT fundamentals for business teams</h3>
+            <p>Free sessions on email, backup vs. archival, and internet security — no IT background needed.</p>
+          </div>
+          <div>
+            <button class="btn btn-primary btn-lg" data-modal-target="#modal-training">Register interest</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Consultation Block on Home -->
+    <section>
+      <div class="container">
+        <div class="reusable-cta-block reveal-item">
+          <h2 class="reusable-cta-headline">Tell us about your systems. We'll reply within 3 working days.</h2>
+          <p class="reusable-cta-sub">Or call us for an instant enquiry — we're happy to talk it through.</p>
+          <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+            <a href="#contact" class="btn btn-primary btn-lg">Contact RiverIT</a>
+            <a href="tel:+6594591538" class="btn btn-outline btn-lg">+65 9459 1538</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================= -->
+  <!-- VIEW 2: ABOUT PAGE                                                        -->
+  <!-- ========================================================================= -->
+  <main class="page-view" id="view-about">
+    <section class="hero-section">
+      <div class="container">
+        <div class="section-header reveal-item">
+          <div class="badge-label">About RiverIT</div>
+          <h1 class="section-title">The partner that keeps Singapore businesses running.</h1>
+          <p class="section-desc">RiverIT is a Singapore-based IT company focused on one outcome: your business, uninterrupted.</p>
+        </div>
+
+        <div class="cards-grid-2" style="margin-bottom: 40px;">
+          <!-- Mission -->
+          <div class="feature-card reveal-item delay-1">
+            <div class="card-icon-wrap">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="22" y1="12" x2="18" y2="12"></line>
+                <line x1="6" y1="12" x2="2" y2="12"></line>
+                <line x1="12" y1="6" x2="12" y2="2"></line>
+                <line x1="12" y1="22" x2="12" y2="18"></line>
+              </svg>
+            </div>
+            <h3 class="card-title">Mission</h3>
+            <p class="card-body">To provide business continuity solutions with service and care, ensuring systems are recovered within the shortest possible time.</p>
+          </div>
+
+          <!-- Vision -->
+          <div class="feature-card reveal-item delay-2">
+            <div class="card-icon-wrap">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                <circle cx="12" cy="12" r="3"></circle>
+              </svg>
+            </div>
+            <h3 class="card-title">Vision</h3>
+            <p class="card-body">To be the preferred business continuity partner in Southeast Asia.</p>
+          </div>
+        </div>
+
+        <!-- How we work -->
+        <div class="feature-card reveal-item delay-3" style="margin-bottom: 40px;">
+          <h2 class="card-title" style="font-size: 1.6rem; margin-bottom: 16px;">How we work</h2>
+          <p class="card-body" style="font-size: 1.05rem; line-height: 1.8;">
+            We believe in service and care. Technology fails — hardware breaks, software has bugs, and attackers keep trying. What matters is how quickly you're back up, and who answers when you call. Our engineers plan for failure before it happens, test every recovery path, and stay reachable when it counts.
+          </p>
+        </div>
+
+        <!-- Certification -->
+        <div class="feature-card reveal-item delay-4" style="border-left: 4px solid var(--color-success); margin-bottom: 40px;">
+          <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
+            <span class="trust-badge-pill">Accredited Standard</span>
+            <h3 class="card-title" style="margin-bottom: 0;">bizSAFE Level 3 certified</h3>
+          </div>
+          <p class="card-body">
+            RiverIT holds bizSAFE Level 3 certification, Singapore's national workplace safety and health standard — your assurance that our on-site work meets audited risk-management practices.
+          </p>
+        </div>
+
+        <!-- Company Story (with placeholder notice) -->
+        <div class="feature-card reveal-item delay-5">
+          <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;">
+            <h3 class="card-title" style="margin-bottom: 0;">Company story</h3>
+            <span class="trust-badge-pill" style="background: rgba(245, 158, 11, 0.15); color: #F59E0B; border-color: rgba(245, 158, 11, 0.3);">
+              ⚠ Pending confirmation
+            </span>
+          </div>
+          <p class="card-body" style="font-style: italic; color: #CBD5E1;">
+            [Company story: when RiverIT was founded, who the engineers are, and the commitment clients can expect.]
+          </p>
+          <div class="callout-box" style="margin-top: 10px; margin-bottom: 0;">
+            <div class="callout-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+            </div>
+            <div>
+              <div class="callout-title">Editorial Note for RiverIT Publishing Team</div>
+              <div class="callout-desc">Needs 2–3 sentences from RiverIT covering founding year, the team, and any response-time commitment before publishing.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================= -->
+  <!-- VIEW 3: BUSINESS CONTINUITY                                               -->
+  <!-- ========================================================================= -->
+  <main class="page-view" id="view-continuity">
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-content reveal-item" style="max-width: 800px; margin-bottom: 40px;">
+          <div class="badge-label">Backup · Recovery · Failover</div>
+          <h1 class="hero-headline">Downtime measured in minutes, not days.</h1>
+          <p class="hero-intro">
+            RiverIT designs data protection that keeps you running. When a production server fails — hardware fault, ransomware or software error — a stand-in takes its place so your team keeps working while we restore the original.
+          </p>
+          <button class="btn btn-primary btn-lg" data-modal-target="#modal-assessment">Get a continuity assessment</button>
+        </div>
+
+        <!-- How RiverStorage keeps you running (diagram section) -->
+        <div class="feature-card reveal-item" style="padding: 44px; margin-bottom: 50px;">
+          <div class="section-header">
+            <div class="badge-label">Stand-In Architecture</div>
+            <h2 class="section-title" style="font-size: 2rem;">How RiverStorage keeps you running</h2>
+            <p class="section-desc">RiverStorage is our dedicated storage server — a repository for your backup images that becomes your production server the moment the original fails.</p>
+          </div>
+
+          <div class="steps-grid" style="margin-bottom: 40px;">
+            <div class="step-card">
+              <span class="step-number" style="color: #EF4444;">DIAGRAM STEP 1</span>
+              <h3 class="step-title">Failure event — Production server fails</h3>
+              <p class="step-desc">Hardware fault, ransomware, software bug — work stops.</p>
+            </div>
+            <div class="step-card">
+              <span class="step-number" style="color: var(--color-primary);">DIAGRAM STEP 2</span>
+              <h3 class="step-title">Always ready — Backup images on RiverStorage</h3>
+              <p class="step-desc">Continuous image-based backups, verified and current.</p>
+            </div>
+            <div class="step-card" style="border-color: rgba(16, 185, 129, 0.4);">
+              <span class="step-number" style="color: #10B981;">DIAGRAM STEP 3</span>
+              <h3 class="step-title">Business as usual — RiverStorage stands in</h3>
+              <p class="step-desc">Your team keeps working while we restore the original server.</p>
+            </div>
+          </div>
+
+          <!-- Interactive Failover Tester -->
+          <div class="continuity-terminal" id="bc-simulator" style="max-width: 100%;">
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <span class="terminal-dot red"></span>
+                <span class="terminal-dot yellow"></span>
+                <span class="terminal-dot green"></span>
+              </div>
+              <div class="terminal-title">RIVERSTORAGE FAILOVER LAB</div>
+              <div class="terminal-status-live">
+                <span class="status-ping"></span>
+                STANDBY REPLICATION
+              </div>
+            </div>
+
+            <div class="terminal-node-grid">
+              <div class="server-node server-node-prod active-prod">
+                <div class="node-icon-box">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+                </div>
+                <div class="node-name">Production Server</div>
+                <div class="node-state node-state-prod">STATUS: ONLINE (PRIMARY)</div>
+              </div>
+
+              <div class="node-connector">
+                <div class="data-flow-line">
+                  <div class="data-pulse"></div>
+                </div>
+              </div>
+
+              <div class="server-node server-node-standin">
+                <div class="node-icon-box">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+                </div>
+                <div class="node-name">RiverStorage Stand-in</div>
+                <div class="node-state node-state-standin">STATUS: READY (STANDBY)</div>
+              </div>
+            </div>
+
+            <div class="terminal-stats-row">
+              <div class="stat-box">
+                <div class="stat-label">Elapsed Downtime</div>
+                <div class="stat-value sim-downtime">00:00</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-label">Image Sync Interval</div>
+                <div class="stat-value">15 mins</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-label">Restoration Safety</div>
+                <div class="stat-value">100% Tested</div>
+              </div>
+            </div>
+
+            <div class="terminal-actions">
+              <button class="btn-sim btn-sim-fail btn-trigger-fail">Simulate Hardware Failure</button>
+              <button class="btn-sim btn-sim-restore btn-trigger-restore">Rebalance & Restore Primary</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product section -->
+        <div class="section-header reveal-item">
+          <div class="badge-label">Validated Architecture</div>
+          <h2 class="section-title">Proven tools, deployed and supported by us</h2>
+        </div>
+
+        <div class="cards-grid-2" style="margin-bottom: 30px;">
+          <!-- Product 1 -->
+          <div class="feature-card reveal-item delay-1">
+            <span class="trust-badge-pill" style="margin-bottom: 12px;">ON-PREMISE</span>
+            <h3 class="card-title">ShadowProtect SPX — by Arcserve (formerly StorageCraft)</h3>
+            <p class="card-body">Fast, flexible recovery starts with a solid backup. ShadowProtect SPX provides comprehensive backup, reliable recovery and system migration in a single cross-platform solution.</p>
+            <ul style="list-style: none; display: flex; flex-direction: column; gap: 8px; color: #CBD5E1; font-size: 0.95rem; margin-bottom: 16px;">
+              <li>• Windows and Linux systems</li>
+              <li>• Physical and virtual machines</li>
+              <li>• Image-based: recover a file or a whole server</li>
+              <li>• Pairs with RiverStorage for instant stand-in</li>
+            </ul>
+          </div>
+
+          <!-- Product 2 -->
+          <div class="feature-card reveal-item delay-2">
+            <span class="trust-badge-pill" style="margin-bottom: 12px; background: rgba(56, 189, 248, 0.15); color: #38BDF8; border-color: rgba(56, 189, 248, 0.3);">CLOUD</span>
+            <h3 class="card-title">Acronis Cyber Protect — all-in-one</h3>
+            <p class="card-body">Unifying data protection and cybersecurity in one platform, protecting all data, applications and systems with a single agent and console.</p>
+            <ul style="list-style: none; display: flex; flex-direction: column; gap: 8px; color: #CBD5E1; font-size: 0.95rem; margin-bottom: 16px;">
+              <li>• Backup + anti-ransomware in one</li>
+              <li>• Microsoft 365 backup: Exchange, OneDrive, SharePoint, Teams</li>
+              <li>• Intune configuration backup and restore</li>
+              <li>• Cloud, on-premise and hybrid workloads</li>
+              <li>• Centralised protection management</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="callout-box reveal-item" style="background: rgba(0, 210, 255, 0.05); border-color: rgba(0, 210, 255, 0.25);">
+          <div class="callout-icon" style="color: var(--color-primary);">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+          </div>
+          <div>
+            <div class="callout-title" style="color: var(--color-primary);">Continuous Recovery Strategy</div>
+            <div class="callout-desc">ON-PREMISE — fastest local recovery · CLOUD — protection anywhere · HYBRID — most resilient, we'll design it</div>
+          </div>
+        </div>
+
+        <!-- FAQ Section -->
+        <div class="faq-section reveal-item">
+          <div class="section-header text-center" style="margin-bottom: 30px;">
+            <h3 class="section-title" style="font-size: 1.8rem;">Frequently Asked Questions</h3>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>What actually happens when our server fails?</span>
+              <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                If you're on our RiverStorage setup, the most recent backup image is activated on the RiverStorage appliance and it stands in for your failed server. Your team continues working against the stand-in while we repair or replace the original, then migrate everything back.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Does this protect against ransomware?</span>
+              <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Yes — image-based backups let us roll your systems back to a point before the infection, and Acronis Cyber Protect adds active anti-ransomware defence on top of backup. We'll also review how your backups themselves are isolated from attack.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>How often are backups taken?</span>
+              <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                It depends on how much data your business can afford to lose. We design the backup schedule around your recovery point objective — for many clients that means incremental images every 15–60 minutes during business hours.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Do you test that recovery actually works?</span>
+              <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Always. A backup that has never been restored is a hope, not a plan. We verify backup images and rehearse the recovery process with you, so the first failover you experience isn't during a real crisis.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Reusable CTA block (bottom of every service page) -->
+        <div class="reusable-cta-block reveal-item">
+          <h2 class="reusable-cta-headline">Find out how fast your business could recover.</h2>
+          <p class="reusable-cta-sub">A short conversation about your current setup — no obligation.</p>
+          <a href="#contact" class="btn btn-primary btn-lg">Contact us</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================= -->
+  <!-- VIEW 4: MICROSOFT 365 & INTUNE BACKUP                                     -->
+  <!-- ========================================================================= -->
+  <main class="page-view" id="view-m365">
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-content reveal-item" style="max-width: 800px; margin-bottom: 40px;">
+          <div class="badge-label">Cloud-to-cloud backup · Powered by Acronis</div>
+          <h1 class="hero-headline">Microsoft runs 365. Backing it up is your job.</h1>
+          <p class="hero-intro">
+            Deleted mailboxes, ransomware-encrypted files, a departed employee's OneDrive, a broken Intune policy — Microsoft keeps the service online, but protecting your data is your responsibility. We make it ours.
+          </p>
+          <a href="#contact" class="btn btn-primary btn-lg">Protect your Microsoft 365</a>
+        </div>
+
+        <!-- Shared Responsibility Section -->
+        <div class="feature-card reveal-item" style="padding: 40px; margin-bottom: 50px;">
+          <div class="section-header">
+            <div class="badge-label">Industry Clarification</div>
+            <h2 class="section-title" style="font-size: 2rem;">“Isn't it already in the cloud?” — what Microsoft protects, and what it doesn't</h2>
+          </div>
+
+          <div class="responsibility-grid">
+            <div class="resp-panel panel-microsoft">
+              <div class="resp-header">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#60A5FA" stroke-width="2"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+                <span>Microsoft protects the service</span>
+              </div>
+              <ul class="resp-list">
+                <li class="resp-item">
+                  <svg class="resp-icon-check" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Uptime of the platform</span>
+                </li>
+                <li class="resp-item">
+                  <svg class="resp-icon-check" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Data centre infrastructure</span>
+                </li>
+                <li class="resp-item">
+                  <svg class="resp-icon-check" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Protection against hardware failure on their side</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="resp-panel panel-you">
+              <div class="resp-header">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--color-primary)" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                <span>You protect your data (RiverIT covers this)</span>
+              </div>
+              <ul class="resp-list">
+                <li class="resp-item">
+                  <svg class="resp-icon-you" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                  <span>Accidental and malicious deletion</span>
+                </li>
+                <li class="resp-item">
+                  <svg class="resp-icon-you" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                  <span>Ransomware that syncs into the cloud</span>
+                </li>
+                <li class="resp-item">
+                  <svg class="resp-icon-you" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                  <span>Departed-employee data</span>
+                </li>
+                <li class="resp-item">
+                  <svg class="resp-icon-you" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                  <span>Retention beyond Microsoft's default limits</span>
+                </li>
+                <li class="resp-item">
+                  <svg class="resp-icon-you" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                  <span>Misconfigured or broken policies</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- What We Back Up (Coverage Grid) -->
+        <div class="section-header reveal-item">
+          <div class="badge-label">Full Cloud Coverage</div>
+          <h2 class="section-title">What we back up</h2>
+        </div>
+
+        <div class="cards-grid-3" style="margin-bottom: 50px;">
+          <div class="feature-card reveal-item delay-1">
+            <h3 class="card-title">Exchange Online</h3>
+            <p class="card-body">Mailboxes, calendars, contacts — restore a single email or an entire mailbox.</p>
+          </div>
+          <div class="feature-card reveal-item delay-2">
+            <h3 class="card-title">OneDrive for Business</h3>
+            <p class="card-body">Every user's files, with point-in-time restore.</p>
+          </div>
+          <div class="feature-card reveal-item delay-3">
+            <h3 class="card-title">SharePoint Online</h3>
+            <p class="card-body">Sites, document libraries and lists.</p>
+          </div>
+          <div class="feature-card reveal-item delay-4">
+            <h3 class="card-title">Microsoft Teams</h3>
+            <p class="card-body">Channels, chats and shared files.</p>
+          </div>
+          <div class="feature-card reveal-item delay-5">
+            <h3 class="card-title">Intune configurations</h3>
+            <p class="card-body">Policies, profiles and app assignments — restore a broken configuration in minutes instead of rebuilding it from memory.</p>
+          </div>
+        </div>
+
+        <!-- How It Works -->
+        <div class="feature-card reveal-item" style="border-left: 4px solid var(--color-primary); margin-bottom: 50px;">
+          <h3 class="card-title" style="font-size: 1.5rem; margin-bottom: 12px;">How it works</h3>
+          <p class="card-body" style="font-size: 1.05rem; line-height: 1.8;">
+            Cloud-to-cloud, no hardware, no agents. Acronis backs up your Microsoft 365 tenant directly in the cloud on an automatic schedule. Nothing to install, nothing to maintain on-site. When something goes wrong, we restore exactly what you need — one email, one file, one policy, or everything — to any backed-up point in time.
+          </p>
+        </div>
+
+        <!-- M365 FAQs -->
+        <div class="faq-section reveal-item">
+          <div class="section-header text-center" style="margin-bottom: 30px;">
+            <h3 class="section-title" style="font-size: 1.8rem;">Frequently Asked Questions</h3>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Isn't the recycle bin enough?</span>
+              <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Recycle bins and retention windows are short and were never designed as backup. Once they lapse — or if data is deleted maliciously — it's gone. A true backup keeps independent copies outside your tenant, restorable to any point in time.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>How far back can we restore?</span>
+              <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                As far back as your backup history runs — we configure retention around your needs rather than Microsoft's defaults, including long-term retention for compliance.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Where is the backup data stored?</span>
+              <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                In Acronis cloud data centres, separate from your Microsoft tenant, encrypted in transit and at rest. We'll advise on the data centre region during setup.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Reusable CTA block (bottom of every service page) -->
+        <div class="reusable-cta-block reveal-item">
+          <h2 class="reusable-cta-headline">Find out how fast your business could recover.</h2>
+          <p class="reusable-cta-sub">A short conversation about your current setup — no obligation.</p>
+          <a href="#contact" class="btn btn-primary btn-lg">Contact us</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================= -->
+  <!-- VIEW 5: ARCHIVAL SOLUTIONS                                                -->
+  <!-- ========================================================================= -->
+  <main class="page-view" id="view-archival">
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-content reveal-item" style="max-width: 800px; margin-bottom: 40px;">
+          <div class="badge-label">Long-term retention · Offline copies</div>
+          <h1 class="hero-headline">Some data you restore. Some data you keep.</h1>
+          <p class="hero-intro">
+            Archiving is for the data your business must retain for years — finished projects, compliance records, historical files — kept safely offline and out of your production systems.
+          </p>
+        </div>
+
+        <!-- Backup vs. Archiving Comparison -->
+        <div class="comparison-grid reveal-item">
+          <div class="comparison-card card-backup">
+            <div class="trust-badge-pill" style="margin-bottom: 14px;">OPERATIONAL RECOVERY</div>
+            <h3 class="card-title">Backup</h3>
+            <p class="card-body">A copy of your live data, taken frequently, kept so you can recover quickly from failure, deletion or attack. Optimised for speed of restore.</p>
+          </div>
+          <div class="comparison-card card-archive">
+            <div class="trust-badge-pill" style="margin-bottom: 14px; background: rgba(245, 158, 11, 0.15); color: #F59E0B; border-color: rgba(245, 158, 11, 0.3);">LONG-TERM RETENTION</div>
+            <h3 class="card-title">Archive</h3>
+            <p class="card-body">The long-term home for data you no longer use daily but must keep. Optimised for retention, portability and cost — and best kept offline, where ransomware can't reach it.</p>
+          </div>
+        </div>
+
+        <!-- Product Section: Overland-Tandberg RDX QuikStor -->
+        <div class="feature-card reveal-item" style="padding: 40px; margin-bottom: 40px;">
+          <div class="badge-label">Hardware Solution</div>
+          <h2 class="card-title" style="font-size: 1.8rem; margin-bottom: 14px;">Overland-Tandberg RDX QuikStor</h2>
+          <p class="card-body" style="font-size: 1.05rem; line-height: 1.7; margin-bottom: 20px;">
+            A rugged, removable disk system that combines the speed of hard drives with the portability of tape cartridges. Load a cartridge, archive your data, and store it off-site or in a safe.
+          </p>
+          <ul style="list-style: none; display: flex; flex-direction: column; gap: 10px; color: #CBD5E1; font-size: 0.98rem; margin-bottom: 24px;">
+            <li>• Fast disk-based read/write — no tape drive wait times</li>
+            <li>• Rugged, portable cartridges built for transport and storage</li>
+            <li>• Simple drag-and-drop usability — no specialist software needed</li>
+            <li>• Ideal for offline, air-gapped copies</li>
+          </ul>
+
+          <!-- Honest Considerations -->
+          <div class="callout-box" style="margin: 0;">
+            <div class="callout-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+            </div>
+            <div>
+              <div class="callout-title">Honest Considerations</div>
+              <div class="callout-desc">
+                Worth knowing: per-terabyte, RDX cartridges cost more than tape. For most SMB archive volumes the speed and simplicity outweigh the difference — for very large archives, we'll tell you honestly if tape or cloud archiving fits better.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- When Archiving Fits -->
+        <div class="section-header reveal-item">
+          <div class="badge-label">Use Cases</div>
+          <h2 class="section-title">When archiving fits</h2>
+        </div>
+
+        <div class="cards-grid-3 reveal-item" style="margin-bottom: 40px;">
+          <div class="feature-card">
+            <h3 class="card-title">Compliance retention</h3>
+            <p class="card-body">Records you're required to keep for a fixed number of years.</p>
+          </div>
+          <div class="feature-card">
+            <h3 class="card-title">Project handover</h3>
+            <p class="card-body">Completed work archived before it clutters production storage.</p>
+          </div>
+          <div class="feature-card">
+            <h3 class="card-title">Offline protection</h3>
+            <p class="card-body">An air-gapped copy that no network attack can touch.</p>
+          </div>
+        </div>
+
+        <!-- Reusable CTA block (bottom of every service page) -->
+        <div class="reusable-cta-block reveal-item">
+          <h2 class="reusable-cta-headline">Find out how fast your business could recover.</h2>
+          <p class="reusable-cta-sub">A short conversation about your current setup — no obligation.</p>
+          <a href="#contact" class="btn btn-primary btn-lg">Contact us</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================= -->
+  <!-- VIEW 6: NETWORK & FIREWALL                                                -->
+  <!-- ========================================================================= -->
+  <main class="page-view" id="view-network">
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-content reveal-item" style="max-width: 800px; margin-bottom: 40px;">
+          <div class="badge-label">Design · Deploy · Manage</div>
+          <h1 class="hero-headline">A network your business never has to think about.</h1>
+          <p class="hero-intro">
+            From the firewall at your perimeter to the Wi-Fi at every desk, we design, build and manage networks that are fast, secure and quietly reliable.
+          </p>
+        </div>
+
+        <!-- Capabilities -->
+        <div class="section-header reveal-item">
+          <div class="badge-label">Core Capabilities</div>
+          <h2 class="section-title">Comprehensive Business Infrastructure</h2>
+        </div>
+
+        <div class="cards-grid-2 reveal-item" style="margin-bottom: 50px;">
+          <div class="feature-card">
+            <h3 class="card-title">Firewall & UTM — Fortinet, WatchGuard</h3>
+            <p class="card-body">Perimeter security, content filtering and intrusion prevention — the wall between your business and the internet, configured and kept current by us.</p>
+          </div>
+          <div class="feature-card">
+            <h3 class="card-title">Secure Remote Access</h3>
+            <p class="card-body">Site-to-site and client VPN so your team works safely from anywhere — home, a branch office, or on the road.</p>
+          </div>
+          <div class="feature-card">
+            <h3 class="card-title">Switching & Cabling — Cisco</h3>
+            <p class="card-body">Structured, documented wired networks that stay fast as you grow — no mystery cables, no bottlenecks.</p>
+          </div>
+          <div class="feature-card">
+            <h3 class="card-title">Business Wi-Fi & Guest Networks</h3>
+            <p class="card-body">Coverage designed for your floor plan, with separate, secured guest access and captive portal options.</p>
+          </div>
+        </div>
+
+        <!-- How an engagement works -->
+        <div class="section-header text-center reveal-item">
+          <div class="badge-label">Our Process</div>
+          <h2 class="section-title">How an engagement works</h2>
+        </div>
+
+        <div class="cards-grid-4 steps-grid reveal-item" style="grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); margin-bottom: 40px;">
+          <div class="step-card">
+            <span class="step-number">PHASE 01</span>
+            <h3 class="step-title">01 Assess</h3>
+            <p class="step-desc">We map what you have and where it strains.</p>
+          </div>
+          <div class="step-card">
+            <span class="step-number">PHASE 02</span>
+            <h3 class="step-title">02 Design</h3>
+            <p class="step-desc">A network plan sized to your business, not a template.</p>
+          </div>
+          <div class="step-card">
+            <span class="step-number">PHASE 03</span>
+            <h3 class="step-title">03 Deploy</h3>
+            <p class="step-desc">Installed and cut over with minimal disruption.</p>
+          </div>
+          <div class="step-card">
+            <span class="step-number">PHASE 04</span>
+            <h3 class="step-title">04 Manage</h3>
+            <p class="step-desc">Monitored, patched and supported, day to day.</p>
+          </div>
+        </div>
+
+        <!-- Reusable CTA block (bottom of every service page) -->
+        <div class="reusable-cta-block reveal-item">
+          <h2 class="reusable-cta-headline">Find out how fast your business could recover.</h2>
+          <p class="reusable-cta-sub">A short conversation about your current setup — no obligation.</p>
+          <a href="#contact" class="btn btn-primary btn-lg">Contact us</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================= -->
+  <!-- VIEW 7: CYBER SECURITY                                                    -->
+  <!-- ========================================================================= -->
+  <main class="page-view" id="view-security">
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-content reveal-item" style="max-width: 800px; margin-bottom: 40px;">
+          <div class="badge-label">Audit · Monitor · Protect</div>
+          <h1 class="hero-headline">Find the holes before attackers do.</h1>
+          <p class="hero-intro">
+            Security isn't one product — it's knowing your weaknesses, watching your systems, and having protection in depth. We provide all three.
+          </p>
+        </div>
+
+        <!-- Capabilities -->
+        <div class="section-header reveal-item">
+          <div class="badge-label">Defense In Depth</div>
+          <h2 class="section-title">Cyber Security Capabilities</h2>
+        </div>
+
+        <div class="cards-grid-3 reveal-item" style="margin-bottom: 50px;">
+          <div class="feature-card">
+            <h3 class="card-title">Web Security Audit — Acunetix</h3>
+            <p class="card-body">Automated vulnerability scanning of your websites and web applications — uncovering the flaws attackers look for, with a clear report and a plan to fix them.</p>
+          </div>
+          <div class="feature-card">
+            <h3 class="card-title">Network & System Monitoring — Progress WhatsUp Gold</h3>
+            <p class="card-body">Round-the-clock visibility of your servers, network and services — failures, unusual activity and capacity problems flagged before your users notice.</p>
+          </div>
+          <div class="feature-card">
+            <h3 class="card-title">Endpoint & Anti-Ransomware — Acronis</h3>
+            <p class="card-body">Active protection that stops ransomware in its tracks — and because it's integrated with your backups, even a successful attack becomes a rollback, not a ransom.</p>
+          </div>
+        </div>
+
+        <!-- How an engagement works -->
+        <div class="section-header text-center reveal-item">
+          <div class="badge-label">Methodology</div>
+          <h2 class="section-title">How an engagement works</h2>
+        </div>
+
+        <div class="steps-grid reveal-item" style="margin-bottom: 40px;">
+          <div class="step-card">
+            <span class="step-number">STEP 01</span>
+            <h3 class="step-title">01 Assess</h3>
+            <p class="step-desc">Audit your current exposure.</p>
+          </div>
+          <div class="step-card">
+            <span class="step-number">STEP 02</span>
+            <h3 class="step-title">02 Deploy</h3>
+            <p class="step-desc">Close the gaps with the right tools.</p>
+          </div>
+          <div class="step-card">
+            <span class="step-number">STEP 03</span>
+            <h3 class="step-title">03 Monitor</h3>
+            <p class="step-desc">Stay watched, patched and protected.</p>
+          </div>
+        </div>
+
+        <!-- Reusable CTA block (bottom of every service page) -->
+        <div class="reusable-cta-block reveal-item">
+          <h2 class="reusable-cta-headline">Find out how fast your business could recover.</h2>
+          <p class="reusable-cta-sub">A short conversation about your current setup — no obligation.</p>
+          <a href="#contact" class="btn btn-primary btn-lg">Contact us</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================= -->
+  <!-- VIEW 8: IT SUPPORT                                                        -->
+  <!-- ========================================================================= -->
+  <main class="page-view" id="view-support">
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-content reveal-item" style="max-width: 800px; margin-bottom: 24px;">
+          <div class="badge-label">Helpdesk · On-site · Singapore-based</div>
+          <h1 class="hero-headline">IT support from engineers you can actually reach.</h1>
+          <p class="hero-intro">
+            When something breaks, you don't want a ticket number — you want it fixed. Our Singapore-based engineers support your team remotely and on-site, for everyday problems and everything else.
+          </p>
+        </div>
+
+        <!-- Editorial Confirmation Banner -->
+        <div class="callout-box reveal-item" style="margin-bottom: 40px;">
+          <div class="callout-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+          </div>
+          <div>
+            <div class="callout-title">⚠ Draft Copy Notice for RiverIT Team</div>
+            <div class="callout-desc">
+              This entire page needs confirmation from RiverIT: support models offered (contract vs. ad-hoc), response-time commitment, coverage hours, and pricing model. Copy below is a working draft.
+            </div>
+          </div>
+        </div>
+
+        <!-- What's covered -->
+        <div class="section-header reveal-item">
+          <div class="badge-label">Scope of Care</div>
+          <h2 class="section-title">What's covered</h2>
+        </div>
+
+        <div class="cards-grid-3 reveal-item" style="margin-bottom: 50px;">
+          <div class="feature-card">
+            <h3 class="card-title">Troubleshooting</h3>
+            <p class="card-body">PCs, servers, printers, email, software issues.</p>
+          </div>
+          <div class="feature-card">
+            <h3 class="card-title">Maintenance</h3>
+            <p class="card-body">Updates, patching and health checks that prevent problems.</p>
+          </div>
+          <div class="feature-card">
+            <h3 class="card-title">Hardware</h3>
+            <p class="card-body">Procurement advice, setup, repair and replacement.</p>
+          </div>
+          <div class="feature-card">
+            <h3 class="card-title">User support</h3>
+            <p class="card-body">Onboarding new staff, accounts, and day-to-day questions.</p>
+          </div>
+          <div class="feature-card">
+            <h3 class="card-title">Vendor liaison</h3>
+            <p class="card-body">We deal with your ISP, software vendors and suppliers so you don't have to.</p>
+          </div>
+        </div>
+
+        <!-- Support models -->
+        <div class="section-header reveal-item">
+          <div class="badge-label">Engagement Options</div>
+          <h2 class="section-title">Support models</h2>
+          <p class="section-desc">⚠ Confirm which apply — draft options:</p>
+        </div>
+
+        <div class="cards-grid-3 reveal-item" style="margin-bottom: 40px;">
+          <div class="feature-card">
+            <div class="trust-badge-pill" style="margin-bottom: 12px; background: rgba(245, 158, 11, 0.15); color: #F59E0B; border-color: rgba(245, 158, 11, 0.3);">[confirm]</div>
+            <h3 class="card-title">Managed IT contract</h3>
+            <p class="card-body">Ongoing support for a fixed monthly fee.</p>
+          </div>
+          <div class="feature-card">
+            <div class="trust-badge-pill" style="margin-bottom: 12px; background: rgba(245, 158, 11, 0.15); color: #F59E0B; border-color: rgba(245, 158, 11, 0.3);">[confirm]</div>
+            <h3 class="card-title">Ad-hoc on-site callout</h3>
+            <p class="card-body">Engineer dispatched when you need one.</p>
+          </div>
+          <div class="feature-card">
+            <div class="trust-badge-pill" style="margin-bottom: 12px; background: rgba(245, 158, 11, 0.15); color: #F59E0B; border-color: rgba(245, 158, 11, 0.3);">[confirm]</div>
+            <h3 class="card-title">Remote helpdesk</h3>
+            <p class="card-body">Fast fixes over phone and screen-share.</p>
+          </div>
+        </div>
+
+        <!-- One partner for everything -->
+        <div class="feature-card reveal-item" style="border-left: 4px solid var(--color-primary); margin-bottom: 40px;">
+          <h3 class="card-title" style="font-size: 1.5rem; margin-bottom: 12px;">One partner for everything</h3>
+          <p class="card-body" style="font-size: 1.05rem; line-height: 1.8;">
+            IT support works best when the same team also runs your backups, network and security. With RiverIT, it does.
+          </p>
+        </div>
+
+        <!-- Reusable CTA block (bottom of every service page) -->
+        <div class="reusable-cta-block reveal-item">
+          <h2 class="reusable-cta-headline">Find out how fast your business could recover.</h2>
+          <p class="reusable-cta-sub">A short conversation about your current setup — no obligation.</p>
+          <a href="#contact" class="btn btn-primary btn-lg">Contact us</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================= -->
+  <!-- VIEW 9: TRAINING                                                          -->
+  <!-- ========================================================================= -->
+  <main class="page-view" id="view-training">
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-content reveal-item" style="max-width: 800px; margin-bottom: 40px;">
+          <div class="badge-label">Empower Your Workforce</div>
+          <h1 class="hero-headline">Free IT fundamentals training for business teams.</h1>
+          <p class="hero-intro">
+            Short, practical sessions that make you a smarter buyer and user of technology — run by our engineers, free of charge.
+          </p>
+          <button class="btn btn-primary btn-lg" data-modal-target="#modal-training">Register interest</button>
+        </div>
+
+        <!-- Sessions -->
+        <div class="section-header reveal-item">
+          <div class="badge-label">Curriculum</div>
+          <h2 class="section-title">Available Sessions</h2>
+        </div>
+
+        <div class="cards-grid-3 reveal-item" style="margin-bottom: 50px;">
+          <div class="feature-card">
+            <span class="step-number">SESSION 1</span>
+            <h3 class="card-title">Email fundamentals & client setup</h3>
+            <p class="card-body">How business email actually works, and how to configure email clients on desktop and mobile properly.</p>
+          </div>
+          <div class="feature-card">
+            <span class="step-number">SESSION 2</span>
+            <h3 class="card-title">Backup vs. archival concepts</h3>
+            <p class="card-body">The difference between backing up and archiving, and what your business needs of each.</p>
+          </div>
+          <div class="feature-card">
+            <span class="step-number">SESSION 3</span>
+            <h3 class="card-title">Internet security basics</h3>
+            <p class="card-body">The threats that actually hit SMBs — phishing, ransomware, weak passwords — and the habits that stop them.</p>
+          </div>
+        </div>
+
+        <!-- Who it's for -->
+        <div class="feature-card reveal-item" style="border-left: 4px solid var(--color-primary); padding: 36px; margin-bottom: 40px;">
+          <h3 class="card-title" style="font-size: 1.5rem; margin-bottom: 14px;">Who it's for</h3>
+          <p class="card-body" style="font-size: 1.05rem; line-height: 1.8; margin-bottom: 24px;">
+            These sessions are for business owners and operations staff — no IT background needed. You'll leave understanding how email, backup and security actually work in your environment, and where your setup can improve.
+          </p>
+          <button class="btn btn-primary" data-modal-target="#modal-training">Register interest</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================= -->
+  <!-- VIEW 10: CONTACT PAGE                                                     -->
+  <!-- ========================================================================= -->
+  <main class="page-view" id="view-contact">
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-content reveal-item" style="max-width: 800px; margin-bottom: 40px;">
+          <div class="badge-label">Get In Touch</div>
+          <h1 class="hero-headline">Tell us about your systems.</h1>
+          <p class="hero-intro">
+            Send us a message and we will get back to you within 3 working days. For anything urgent, call us directly.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Form -->
+          <div class="contact-form-card reveal-item delay-1">
+            <form class="contact-form-el" novalidate>
+              <div class="form-group">
+                <label class="form-label" for="contact-name">Name *</label>
+                <input class="form-control" type="text" id="contact-name" name="name" placeholder="Your full name" required>
+                <div class="form-error-msg">Please enter your name.</div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="contact-email">Email *</label>
+                <input class="form-control" type="email" id="contact-email" name="email" placeholder="name@company.com" required>
+                <div class="form-error-msg">Please enter a valid email address.</div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="contact-enquiry">Enquiry type</label>
+                <select class="form-control" id="contact-enquiry" name="enquiry_type">
+                  <option value="General">General</option>
+                  <option value="Technical Support">Technical Support</option>
+                  <option value="Sales">Sales</option>
+                  <option value="Training">Training</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="contact-message">Message *</label>
+                <textarea class="form-control" id="contact-message" name="message" rows="5" placeholder="Tell us about your systems and what you need..." required></textarea>
+                <div class="form-error-msg">Please write a short message so we know how to help.</div>
+              </div>
+
+              <button class="btn btn-primary btn-lg" type="submit" style="width: 100%;">Send message</button>
+            </form>
+          </div>
+
+          <!-- Contact details panel -->
+          <div class="contact-info-panel reveal-item delay-2">
+            <h3 class="card-title" style="margin-bottom: 24px;">Direct Contact</h3>
+
+            <div class="info-row">
+              <div class="info-icon-box">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              </div>
+              <div>
+                <div class="info-title">Headquarters</div>
+                <div class="info-detail">RiverIT Pte Ltd</div>
+                <div style="color: var(--color-text-muted); font-size: 0.94rem; margin-top: 3px;">
+                  401 Havelock Road, #02-05 (Hotel Miramar Building), Singapore 169361
+                </div>
+              </div>
+            </div>
+
+            <div class="info-row">
+              <div class="info-icon-box">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              </div>
+              <div>
+                <div class="info-title">Direct Phone</div>
+                <div class="info-detail"><a href="tel:+6594591538" style="color: #FFFFFF;">+65 9459 1538</a></div>
+              </div>
+            </div>
+
+            <div class="info-row">
+              <div class="info-icon-box">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              </div>
+              <div>
+                <div class="info-title">Sales & General Inquiries</div>
+                <div class="info-detail"><a href="mailto:sales@riverit.com" style="color: var(--color-primary);">sales@riverit.com</a></div>
+              </div>
+            </div>
+
+            <div class="warning-badge">
+              ⚠ Postal code confirmation note: Confirm postal code (169361 vs 169631) and office hours with RiverIT before final publication.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================= -->
+  <!-- SITE FOOTER                                                               -->
+  <!-- ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: Brand & Tagline -->
+        <div>
+          <a href="#home" class="brand-logo" style="margin-bottom: 12px;">
+            <div class="logo-icon" style="width: 32px; height: 32px;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            </div>
+            <span>RiverIT<span class="dot">.</span></span>
+          </a>
+          <p class="footer-tagline">
+            Business continuity solutions with service and care — the preferred continuity partner in Southeast Asia.
+          </p>
+          <div class="trust-badge-pill">bizSAFE Level 3 Certified</div>
+        </div>
+
+        <!-- Col 2: Navigation -->
+        <div>
+          <div class="footer-heading">Services & Navigation</div>
+          <ul class="footer-links-list">
+            <li><a href="#continuity">Business Continuity</a></li>
+            <li><a href="#m365">Microsoft 365 & Intune Backup</a></li>
+            <li><a href="#archival">Archival Solutions</a></li>
+            <li><a href="#network">Network & Firewall</a></li>
+            <li><a href="#security">Cyber Security</a></li>
+            <li><a href="#support">IT Support</a></li>
+            <li><a href="#training">Training</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Contact Details -->
+        <div>
+          <div class="footer-heading">Contact Details</div>
+          <div style="color: var(--color-text-muted); font-size: 0.92rem; line-height: 1.8;">
+            <strong style="color: #FFFFFF;">RiverIT Pte Ltd</strong><br>
+            401 Havelock Road, #02-05, Singapore 169361<br>
+            Phone: <a href="tel:+6594591538" style="color: #CAD5E2;">+65 9459 1538</a><br>
+            Email: <a href="mailto:sales@riverit.com">sales@riverit.com</a>
+          </div>
+          <div style="font-size: 0.76rem; color: #F59E0B; margin-top: 10px;">
+            ⚠ Postal code note: footer says 169361, contact page says 169631. Confirm before publishing.
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <div class="legal-line">
+          © 2026 RiverIT Pte Ltd. All rights reserved. · bizSAFE Level 3 certified
+        </div>
+        <div style="display: flex; gap: 20px;">
+          <a href="#" data-modal-target="#modal-policy">Data Protection Policy</a>
+          <a href="#" data-modal-target="#modal-policy">Web Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================= -->
+  <!-- MODAL: TALK TO US / CONSULTATION                                          -->
+  <!-- ========================================================================= -->
+  <div class="modal-overlay" id="modal-talk">
+    <div class="modal-dialog">
+      <button class="modal-close-btn" aria-label="Close dialog">&times;</button>
+      <div class="badge-label" style="margin-bottom: 12px;">Direct Consultation</div>
+      <h3 style="font-size: 1.6rem; margin-bottom: 10px;">Talk to RiverIT</h3>
+      <p style="color: var(--color-text-muted); margin-bottom: 24px; font-size: 0.95rem;">
+        Speak directly with our Singapore-based continuity engineers. We'll reply within 3 working days — or call +65 9459 1538 for immediate enquiries.
+      </p>
+
+      <form class="contact-form-el" novalidate>
+        <div class="form-group">
+          <label class="form-label">Name *</label>
+          <input class="form-control" type="text" name="name" placeholder="Your name" required>
+          <div class="form-error-msg">Please enter your name.</div>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Email *</label>
+          <input class="form-control" type="email" name="email" placeholder="name@company.com" required>
+          <div class="form-error-msg">Please enter a valid email address.</div>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Enquiry type</label>
+          <select class="form-control" name="enquiry_type">
+            <option value="General">General</option>
+            <option value="Technical Support">Technical Support</option>
+            <option value="Sales" selected>Sales</option>
+            <option value="Training">Training</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Message *</label>
+          <textarea class="form-control" name="message" rows="4" placeholder="Briefly describe your environment or inquiry..." required></textarea>
+          <div class="form-error-msg">Please write a short message so we know how to help.</div>
+        </div>
+        <button class="btn btn-primary btn-lg" type="submit" style="width: 100%;">Send message</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- MODAL: CONTINUITY ASSESSMENT CALCULATOR                                   -->
+  <!-- ========================================================================= -->
+  <div class="modal-overlay" id="modal-assessment">
+    <div class="modal-dialog" style="max-width: 660px;">
+      <button class="modal-close-btn" aria-label="Close dialog">&times;</button>
+      <div class="badge-label" style="margin-bottom: 12px;">Interactive Recovery Assessment</div>
+      <h3 style="font-size: 1.6rem; margin-bottom: 8px;">Find out how fast your business could recover</h3>
+      <p style="color: var(--color-text-muted); margin-bottom: 24px; font-size: 0.95rem;">
+        Calculate your current downtime exposure versus an instant stand-in RiverStorage architecture.
+      </p>
+
+      <form id="continuity-calc-form">
+        <div class="form-group">
+          <label class="form-label">Number of critical servers / VMs</label>
+          <select class="form-control" name="servers">
+            <option value="2">1 – 3 Servers (Small office)</option>
+            <option value="6" selected>4 – 10 Servers (Mid-sized SMB)</option>
+            <option value="15">10+ Servers (Enterprise cluster)</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Current primary backup solution</label>
+          <select class="form-control" name="backupType">
+            <option value="drive">External USB Hard Drive / Tape (Daily)</option>
+            <option value="cloud" selected>Basic Cloud File Backup (Daily offsite)</option>
+            <option value="snapshot">Periodic VM Snapshots (6-hour intervals)</option>
+            <option value="none">No structured disaster recovery stand-in</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Estimated cost of complete downtime per hour (S$)</label>
+          <select class="form-control" name="hourlyCost">
+            <option value="800">S$800 / hour (10-20 staff idle)</option>
+            <option value="2500" selected>S$2,500 / hour (20-50 staff + lost revenue)</option>
+            <option value="6000">S$6,000+ / hour (50+ staff, transactions paused)</option>
+          </select>
+        </div>
+
+        <button class="btn btn-primary" type="submit" style="width: 100%; margin-top: 10px;">Calculate Recovery Profile</button>
+      </form>
+
+      <!-- Results view -->
+      <div id="continuity-calc-result" style="display: none; margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--border-subtle);">
+        <div class="terminal-stats-row">
+          <div class="stat-box">
+            <div class="stat-label">Status Quo RTO</div>
+            <div class="stat-value" id="calc-current-rto" style="color: #EF4444;">12 hrs</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-label">RiverStorage RTO</div>
+            <div class="stat-value" id="calc-river-rto" style="color: #10B981;">&lt; 15 mins</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-label">Saved per Incident</div>
+            <div class="stat-value" id="calc-savings" style="color: var(--color-primary);">S$29,375</div>
+          </div>
+        </div>
+
+        <div class="callout-box" style="margin: 16px 0; background: rgba(16, 185, 129, 0.08); border-color: rgba(16, 185, 129, 0.3);">
+          <div class="callout-icon" style="color: #10B981;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          </div>
+          <div>
+            <div class="callout-title" style="color: #10B981;">Recommended Deployment: RiverStorage + Arcserve & Acronis</div>
+            <div class="callout-desc">Your recovery point objective shifts from hours to minutes, with fully rehearsed restores.</div>
+          </div>
+        </div>
+
+        <button class="btn btn-primary" style="width: 100%;" onclick="document.getElementById('modal-assessment').classList.remove('open'); navigateTo('contact');">
+          Book Assessment Discussion
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- MODAL: TRAINING REGISTRATION                                              -->
+  <!-- ========================================================================= -->
+  <div class="modal-overlay" id="modal-training">
+    <div class="modal-dialog">
+      <button class="modal-close-btn" aria-label="Close dialog">&times;</button>
+      <div class="badge-label" style="margin-bottom: 12px;">Free Sessions</div>
+      <h3 style="font-size: 1.6rem; margin-bottom: 8px;">Register Training Interest</h3>
+      <p style="color: var(--color-text-muted); margin-bottom: 20px; font-size: 0.95rem;">
+        Practical, zero-cost technology sessions conducted by Singapore engineers for business teams.
+      </p>
+
+      <form id="training-register-form">
+        <div class="form-group">
+          <label class="form-label">Full Name *</label>
+          <input class="form-control" type="text" name="name" placeholder="Your name" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Work Email *</label>
+          <input class="form-control" type="email" name="email" placeholder="name@company.sg" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Company Name</label>
+          <input class="form-control" type="text" name="company" placeholder="Company Pte Ltd">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Select Session(s) of Interest</label>
+          <div style="display: flex; flex-direction: column; gap: 8px; margin-top: 6px;">
+            <label style="display: flex; align-items: center; gap: 8px; color: #CBD5E1; font-size: 0.92rem;">
+              <input type="checkbox" checked value="email"> Email fundamentals & client setup
+            </label>
+            <label style="display: flex; align-items: center; gap: 8px; color: #CBD5E1; font-size: 0.92rem;">
+              <input type="checkbox" checked value="backup"> Backup vs. archival concepts
+            </label>
+            <label style="display: flex; align-items: center; gap: 8px; color: #CBD5E1; font-size: 0.92rem;">
+              <input type="checkbox" checked value="security"> Internet security basics
+            </label>
+          </div>
+        </div>
+
+        <button class="btn btn-primary btn-lg" type="submit" style="width: 100%; margin-top: 10px;">Submit Registration</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- MODAL: DATA PROTECTION & WEB POLICY                                       -->
+  <!-- ========================================================================= -->
+  <div class="modal-overlay" id="modal-policy">
+    <div class="modal-dialog">
+      <button class="modal-close-btn" aria-label="Close dialog">&times;</button>
+      <div class="badge-label" style="margin-bottom: 12px;">Singapore Compliance</div>
+      <h3 style="font-size: 1.5rem; margin-bottom: 12px;">Data Protection & Web Policy</h3>
+      <div style="font-size: 0.94rem; color: var(--color-text-muted); line-height: 1.7; display: flex; flex-direction: column; gap: 14px;">
+        <p>
+          RiverIT Pte Ltd complies with the Personal Data Protection Act 2012 (PDPA) of Singapore. All customer data and system configurations entrusted to us for continuity, backup, network management, and security audits are processed solely for contracted operational deliverables and encrypted in accordance with industry benchmarks.
+        </p>
+        <p>
+          We do not sell, rent, or disclose business or personal contact data to unverified third parties. Any inquiries regarding personal data records or retention may be directed to <a href="mailto:sales@riverit.com">sales@riverit.com</a>.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Global Toast Notification -->
+  <div class="toast-notice" id="global-toast">
+    <div class="toast-icon">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="20 6 9 17 4 12"></polyline>
+      </svg>
+    </div>
+    <div class="toast-text" id="toast-text">
+      Thank you — your message is on its way. We'll get back to you within 3 working days.
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

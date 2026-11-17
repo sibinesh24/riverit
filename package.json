@@ -1,0 +1,12 @@
+{
+  "name": "riverit-website",
+  "version": "2.0.0",
+  "description": "RiverIT Pte Ltd — Business Continuity, Backup & IT Security in Singapore",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["riverit", "business-continuity", "singapore", "backup", "disaster-recovery"],
+  "author": "RiverIT Development Team",
+  "license": "ISC"
+}
